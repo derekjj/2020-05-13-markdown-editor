@@ -5,12 +5,12 @@
         .col-12
           Header
       .row.m-0
-        .col-lg-6
+        .col-6
           Input
-        .col-lg-6.border
+        .col-6.border
           Display
       .row.m-0
-        .col-lg-12
+        .col-12
           PrintPDF
 </template>
 <script>
