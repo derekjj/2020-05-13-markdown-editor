@@ -1,7 +1,7 @@
 <template lang="pug">
   #app
     .container-flex.pl-3.pr-3
-      .row
+      .row.m-2
         .col-12
           Header
       .row.m-0

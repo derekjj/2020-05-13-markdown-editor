@@ -1,10 +1,10 @@
 <template lang="pug">
   .container
-    .row.m-2
-      .col-3
-      .col-6
-        h1 Mark down editor
-      .col-3
+    .row
+      .col-2
+      .col-8
+        h1 Markdown editor
+      .col-2
         b-button(@click="toggleMode") Mode
 </template>
 <script>

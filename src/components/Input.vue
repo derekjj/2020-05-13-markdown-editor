@@ -1,7 +1,7 @@
 <template lang="pug">
   .row
     .col.text-left
-      b-form-textarea.vh-80(
+      b-form-textarea.vh-75(
         id="textarea"
         v-model="input"
         placeholder="Enter something..."
@@ -31,8 +31,8 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.vh-80 {
-  height: 80vh;
+.vh-75 {
+  height: 75vh;
 }
 h3 {
   margin: 40px 0 0;
