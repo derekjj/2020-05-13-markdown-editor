@@ -1,17 +1,31 @@
-<template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<template lang="pug">
+  #app
+    .container-flex.pl-3.pr-3
+      .row
+        .col-12
+          Header
+      .row.m-0
+        .col-lg-6
+          Input
+        .col-lg-6.border
+          Display
+      .row.m-0
+        .col-lg-12
+          PrintPDF
 </template>
-
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Header from './components/Header.vue'
+import Input from './components/Input.vue'
+import Display from './components/Display.vue'
+import PrintPDF from './components/PrintPDF.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Header,
+    Input,
+    Display,
+    PrintPDF
   }
 }
 </script>
@@ -22,7 +36,5 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
 }
 </style>

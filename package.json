@@ -11,9 +11,12 @@
     "bootstrap": "^4.4.1",
     "bootstrap-vue": "^2.10.1",
     "core-js": "^3.6.4",
+    "jspdf": "^1.5.3",
     "pug": "^2.0.4",
     "pug-plain-loader": "^1.0.0",
-    "vue": "^2.6.11"
+    "remarkable": "^2.0.0",
+    "vue": "^2.6.11",
+    "vuex": "^3.4.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.3.0",
